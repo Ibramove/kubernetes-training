@@ -1,6 +1,3 @@
-Voici un exemple de fichier README pour votre TP3, basé sur les étapes que vous avez décrites :
-
----
 
 # TP3 Kubernetes Training
 

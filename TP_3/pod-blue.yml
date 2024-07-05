@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: blue-webapp-pod
+  namespace: production
+  labels:
+    app: web
+spec:
+  containers:
+  - name: simple-webapp
+    image: mmumshad/simple-webapp-color
+    env:
+    - name: COLOR
+      value: "blue"
+    ports:
+    - containerPort: 8080
+

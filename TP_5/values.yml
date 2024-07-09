@@ -1,0 +1,7 @@
+wordpressUsername: admin
+wordpressPassword: password
+service:
+  type: NodePort
+  nodePorts:
+    http: 30080  # Choisissez le port que vous souhaitez
+
